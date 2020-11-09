@@ -1,7 +1,7 @@
 from django.db import models
-from django.contrib.auth.models import User,Group
+from django.contrib.auth.models import User,Group,AbstractUser
 # Create your models here.
-
+from db.base_model import BaseModel
 
 
 
@@ -12,7 +12,13 @@ class MapCity(models.Model):
     id = models.AutoField(verbose_name="id",primary_key=True)
     class Meta:
         app_label = "v1"
-        db_table="MapCity"
+        db_table="mapcity"
+
+
+
+
+
+
 
 
 

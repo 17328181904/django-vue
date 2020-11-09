@@ -1,0 +1,277 @@
+[2020-11-07 08:35:59,263] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 08:41:06,519] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:41:06,522] [log.py:228] [log:log_response] [WARNING]- Not Found: /v1/user
+[2020-11-07 08:41:06,524] [log.py:228] [log:log_response] [WARNING]- Not Found: /v1/cities
+[2020-11-07 08:41:06,525] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404 2230
+[2020-11-07 08:41:06,525] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v1/user?user_id=null HTTP/1.1" 404 2182
+[2020-11-07 08:41:06,526] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v1/cities?type=guess HTTP/1.1" 404 2186
+[2020-11-07 08:41:13,282] [log.py:228] [log:log_response] [WARNING]- Not Found: /v1/cities
+[2020-11-07 08:41:13,283] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v1/cities?type=guess HTTP/1.1" 404 2186
+[2020-11-07 08:41:13,313] [log.py:228] [log:log_response] [WARNING]- Not Found: /v1/user
+[2020-11-07 08:41:13,314] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v1/user?user_id=null HTTP/1.1" 404 2182
+[2020-11-07 08:41:13,316] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:41:13,317] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404 2230
+[2020-11-07 08:41:59,424] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 08:42:03,552] [log.py:228] [log:log_response] [WARNING]- Not Found: /v1/cities
+[2020-11-07 08:42:03,552] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v1/cities?type=guess HTTP/1.1" 404 2186
+[2020-11-07 08:42:03,577] [log.py:228] [log:log_response] [WARNING]- Not Found: /v1/user
+[2020-11-07 08:42:03,578] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v1/user?user_id=null HTTP/1.1" 404 2182
+[2020-11-07 08:42:03,582] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:42:03,583] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404 2230
+[2020-11-07 08:43:57,770] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:43:57,771] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404 2230
+[2020-11-07 08:45:36,688] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:45:36,689] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404 2230
+[2020-11-07 08:47:35,472] [log.py:228] [log:log_response] [WARNING]- Not Found: /app/v1/cities
+[2020-11-07 08:47:35,473] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:47:35,473] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /app/v1/cities?type=guess HTTP/1.1" 404 2846
+[2020-11-07 08:47:35,474] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404 2230
+[2020-11-07 08:47:45,178] [log.py:228] [log:log_response] [WARNING]- Not Found: /app/v1/cities
+[2020-11-07 08:47:45,179] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /app/v1/cities?type=guess HTTP/1.1" 404 2846
+[2020-11-07 08:48:14,952] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 08:49:53,164] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/pois/31.22299,121.36025
+[2020-11-07 08:49:53,164] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/pois/31.22299,121.36025 HTTP/1.1" 404 2226
+[2020-11-07 08:49:53,192] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:49:53,193] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=31.22299,121.36025&group_type=1&flags[]=F HTTP/1.1" 404 2248
+[2020-11-07 08:49:56,060] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/pois/31.22299,121.36025
+[2020-11-07 08:49:56,061] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/pois/31.22299,121.36025 HTTP/1.1" 404 2226
+[2020-11-07 08:49:56,096] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:49:56,097] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=31.22299,121.36025&group_type=1&flags[]=F HTTP/1.1" 404 2248
+[2020-11-07 08:50:01,316] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/pois/31.22299,121.36025
+[2020-11-07 08:50:01,317] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/pois/31.22299,121.36025 HTTP/1.1" 404 2226
+[2020-11-07 08:50:01,349] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:50:01,350] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=31.22299,121.36025&group_type=1&flags[]=F HTTP/1.1" 404 2248
+[2020-11-07 08:50:39,885] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 08:50:41,201] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 08:50:44,516] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/pois/31.22299,121.36025
+[2020-11-07 08:50:44,517] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/pois/31.22299,121.36025 HTTP/1.1" 404 2226
+[2020-11-07 08:50:44,549] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:50:44,550] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=31.22299,121.36025&group_type=1&flags[]=F HTTP/1.1" 404 2248
+[2020-11-07 08:51:21,824] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 08:51:21,825] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404 2230
+[2020-11-07 09:06:04,157] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:06:06,106] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:15:26,500] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:15:41,674] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:15:42,854] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:16:16,353] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:16:17,493] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:17:29,124] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:17:30,375] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:20:38,801] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:20:40,020] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:22:56,618] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:22:57,888] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:24:01,450] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:24:02,647] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:24:12,221] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:24:48,868] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:24:51,439] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:25:13,727] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:25:14,458] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:25:26,243] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:25:28,352] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:26:22,198] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:26:24,783] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:26:46,757] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:26:47,629] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:27:12,364] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:27:13,988] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:28:13,525] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:28:14,920] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:28:28,659] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:28:31,591] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:29:16,669] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:29:19,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:30:15,017] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:30:18,385] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:30:19,621] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:30:20,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:30:57,079] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:30:58,888] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:33:25,124] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:33:28,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:34:10,592] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:34:11,975] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:34:25,801] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:34:40,906] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:34:42,124] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:34:42,856] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:35:05,262] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:35:50,226] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:35:51,476] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:35:52,291] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:36:19,485] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:36:20,958] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:36:58,503] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:37:00,722] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:37:01,886] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:37:06,339] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:38:34,195] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:38:38,078] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:38:54,604] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:38:55,328] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:39:57,706] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:40:00,779] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:40:02,760] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:40:04,831] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:40:05,991] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:40:08,215] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:40:23,856] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:40:24,580] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:41:15,582] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:41:22,111] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:49:24,026] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:49:25,067] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:49:46,988] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:49:47,730] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:50:12,558] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:50:22,162] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:50:23,329] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:50:24,013] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:51:11,885] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:51:12,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:51:23,124] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:51:26,630] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:51:37,310] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:51:38,440] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:51:59,101] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:52:09,850] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:53:34,621] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:53:40,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:54:04,333] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:54:12,985] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 09:54:14,163] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:54:15,151] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:58:15,435] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:58:16,306] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:58:37,035] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:58:38,226] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 09:59:01,342] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 09:59:05,007] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:00:40,236] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:01:27,707] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:01:28,854] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:01:37,137] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:01:38,209] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:01:40,058] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:02:16,869] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:02:18,143] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:02:33,119] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:02:45,600] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:02:46,707] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:03:31,083] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:03:32,191] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:03:33,837] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:04:02,893] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:04:04,892] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:04:46,560] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:04:59,039] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:05:00,201] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:05:00,973] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:06:44,754] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:06:46,324] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:07:09,128] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:07:11,466] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:08:14,977] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:08:17,659] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:08:39,311] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:08:40,402] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:09:19,067] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:09:25,528] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:09:27,695] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:09:29,597] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:10:03,785] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:10:12,547] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:10:13,733] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:10:16,019] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:10:45,784] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:10:47,972] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:13:38,347] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:13:41,746] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:13:42,908] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:13:45,411] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:13:59,419] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:14:01,581] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:15:11,666] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:15:55,403] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:15:56,576] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:15:57,448] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:16:32,514] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:16:33,641] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:17:49,645] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:17:50,649] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:18:03,402] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:18:04,749] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:18:19,666] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:20:05,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:21:10,030] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:21:35,726] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:21:36,913] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:21:40,585] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:23:37,432] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:23:41,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:24:14,750] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:24:18,609] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:24:59,164] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:25:04,092] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:25:50,757] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:25:53,185] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:26:33,525] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:26:34,244] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:26:51,192] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:26:53,091] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:29:48,436] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:29:49,628] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:30:06,021] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:30:06,832] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:45:38,151] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:45:41,500] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:46:17,747] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:46:20,033] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:46:39,898] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:46:42,306] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:47:43,001] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:47:45,451] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:49:17,495] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:50:24,931] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:50:26,125] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:50:26,971] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:50:50,528] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:50:51,290] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:51:01,803] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:51:05,263] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:51:05,278] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:51:06,499] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:51:15,292] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:51:16,492] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:51:18,193] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:52:23,516] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:53:02,535] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:53:03,805] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:53:08,587] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 10:53:09,800] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:53:13,826] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:53:21,353] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:53:23,160] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:53:47,747] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:53:49,650] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:54:21,811] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:54:22,913] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:54:51,691] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:54:56,191] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:55:40,461] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:55:41,468] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:56:19,559] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:56:20,569] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:56:40,089] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:56:41,864] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 10:58:05,923] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 10:58:07,138] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-07 11:52:44,960] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 11:52:47,732] [log.py:228] [log:log_response] [WARNING]- Not Found: /app/v1/map/city/pois
+[2020-11-07 11:52:47,733] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /app/v1/map/city/pois?type=guess&geohash=28.227779%2C112.938858 HTTP/1.1" 404 2920
+[2020-11-07 11:53:17,360] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-07 11:53:18,543] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-07 11:53:38,723] [log.py:228] [log:log_response] [WARNING]- Not Found: /v2/index_entry
+[2020-11-07 11:53:38,724] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404 2230

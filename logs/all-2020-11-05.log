@@ -1,0 +1,200 @@
+[2020-11-05 09:58:38,544] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 09:59:52,416] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 09:59:53,538] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:00:26,502] [log.py:228] [log:log_response] [WARNING]- Not Found: /v1/city
+[2020-11-05 10:00:26,503] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /v1/city?type=hot HTTP/1.1" 404 2178
+[2020-11-05 10:01:37,606] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-05 10:02:42,980] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:03:04,149] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-05 10:03:52,984] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:03:55,677] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-05 10:06:25,219] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:06:26,088] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-05 10:06:26,274] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 62, in view
+    self = cls(**initkwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 81, in __init__
+    self.client = monggo.vue-mongodb.mapcity
+NameError: name 'mongodb' is not defined
+[2020-11-05 10:06:26,276] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 82419
+[2020-11-05 10:07:10,680] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 10:07:11,832] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:07:14,353] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-05 10:08:00,867] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:08:04,960] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-05 10:09:15,706] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:09:17,635] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-05 10:09:17,808] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 175, in get
+    citys = self.get_object_hot(cityName)
+  File "D:\djangos\mysite\apps\v1\views.py", line 97, in get_object_hot
+    print(data_lsit.get("title_head"))
+AttributeError: 'Cursor' object has no attribute 'get'
+[2020-11-05 10:09:17,810] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 19743
+[2020-11-05 10:10:19,318] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 10:10:20,442] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:10:26,669] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-05 10:10:26,981] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Response' object has no attribute 'title_head'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 184, in get
+    return Response(serializer.data)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 548, in data
+    ret = super().data
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title_head` on serializer `MapCitySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Response` instance.
+Original exception text was: 'Response' object has no attribute 'title_head'.
+[2020-11-05 10:10:26,984] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 21128
+[2020-11-05 10:12:03,542] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 10:12:04,656] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:12:05,912] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-05 10:12:06,097] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 1240
+[2020-11-05 10:15:02,446] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=group HTTP/1.1" 301 0
+[2020-11-05 10:15:04,237] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:15:07,902] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=group HTTP/1.1" 301 0
+[2020-11-05 10:25:34,109] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:29:51,663] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 10:29:52,822] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 10:38:35,507] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 10:38:36,752] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:00:22,431] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:00:23,553] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:01:53,195] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:01:54,439] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:03:25,450] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:03:26,606] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:05:19,361] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:05:20,473] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:06:29,862] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\urls.py changed, reloading.
+[2020-11-05 11:06:31,010] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:08:26,586] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:08:27,783] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:11:47,660] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:11:48,825] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:13:45,578] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:13:46,729] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:14:01,426] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:14:02,512] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:15:20,407] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:15:21,551] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:15:46,638] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:15:47,793] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:17:08,417] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:17:09,681] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:17:46,373] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:17:47,521] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:18:26,836] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:18:28,000] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:19:34,467] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:19:35,595] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:23:56,389] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:23:57,573] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:24:55,211] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:25:08,905] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:25:10,131] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:25:14,069] [log.py:228] [log:log_response] [WARNING]- Not Found: /app/v1/city
+[2020-11-05 11:25:14,070] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /app/v1/city?type=guess HTTP/1.1" 404 2270
+[2020-11-05 11:25:41,324] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/city?type=guess HTTP/1.1" 301 0
+[2020-11-05 11:26:24,853] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:27:07,295] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:27:50,852] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:28:52,251] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:29:34,670] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:30:40,527] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:31:29,240] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:31:30,389] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:32:23,190] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:32:40,636] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:34:46,713] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:35:25,119] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:35:26,303] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:37:53,579] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:37:54,787] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:41:41,143] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:41:44,111] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index?type=group HTTP/1.1" 301 0
+[2020-11-05 11:42:13,035] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:42:20,983] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index?type=group HTTP/1.1" 301 0
+[2020-11-05 11:42:20,988] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index/?type=group HTTP/1.1" 200 7
+[2020-11-05 11:43:00,597] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 11:43:01,748] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 11:43:04,937] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index?type=group HTTP/1.1" 301 0
+[2020-11-05 11:43:04,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index/?type=group HTTP/1.1" 200 7
+[2020-11-05 11:43:05,931] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index?type=group HTTP/1.1" 301 0
+[2020-11-05 11:43:05,933] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index/?type=group HTTP/1.1" 200 7
+[2020-11-05 11:43:06,722] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index?type=group HTTP/1.1" 301 0
+[2020-11-05 11:43:06,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index/?type=group HTTP/1.1" 200 7
+[2020-11-05 15:24:21,738] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\urls.py changed, reloading.
+[2020-11-05 15:24:23,236] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 15:39:25,797] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\urls.py changed, reloading.
+[2020-11-05 15:39:27,022] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 16:04:57,483] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\urls.py changed, reloading.
+[2020-11-05 16:04:58,642] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 16:05:48,829] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\urls.py changed, reloading.
+[2020-11-05 16:05:50,003] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 23:17:48,877] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 23:17:51,701] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-05 23:18:29,688] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-05 23:18:31,997] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-06 09:19:49,426] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index?type=groups HTTP/1.1" 301 0
+[2020-11-06 09:19:49,432] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/map/index/?type=groups HTTP/1.1" 200 7
+[2020-11-06 09:19:49,716] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.

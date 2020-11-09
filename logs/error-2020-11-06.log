@@ -1,0 +1,42 @@
+[2020-11-06 09:20:08,742] [views.py:129] [views:list] [ERROR]- 参数错误
+[2020-11-06 09:43:18,163] [views.py:117] [views:list] [ERROR]- mapcity is not find
+[2020-11-06 15:01:34,124] [views.py:210] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:02:34,288] [views.py:211] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:02:39,317] [views.py:211] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:02:46,341] [views.py:211] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:02:47,908] [views.py:211] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:03:08,320] [views.py:211] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:03:47,375] [views.py:213] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:03:56,050] [views.py:213] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:05:22,849] [views.py:215] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:05:52,898] [views.py:215] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:06:44,986] [views.py:215] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:09:05,160] [views.py:182] [views:guessPosition] [ERROR]- 获取位置信息错误
+[2020-11-06 15:09:05,161] [views.py:215] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:09:11,837] [views.py:182] [views:guessPosition] [ERROR]- 获取位置信息错误
+[2020-11-06 15:09:11,838] [views.py:215] [views:getExactAddress] [ERROR]- 获取精确位置信息失败
+[2020-11-06 15:10:29,320] [views.py:182] [views:guessPosition] [ERROR]- 获取位置信息错误
+[2020-11-06 15:10:53,459] [views.py:183] [views:guessPosition] [ERROR]- 获取位置信息错误
+[2020-11-06 15:11:01,156] [views.py:183] [views:guessPosition] [ERROR]- 获取位置信息错误
+[2020-11-06 15:13:11,671] [views.py:183] [views:guessPosition] [ERROR]- 获取位置信息错误
+[2020-11-06 15:14:44,977] [views.py:205] [views:geocoder] [ERROR]- 获取位置信息错误
+[2020-11-06 15:15:00,921] [views.py:205] [views:geocoder] [ERROR]- 获取位置信息错误
+[2020-11-06 15:15:51,482] [views.py:205] [views:geocoder] [ERROR]- 获取位置信息错误
+[2020-11-06 15:15:57,598] [views.py:205] [views:geocoder] [ERROR]- 获取位置信息错误
+[2020-11-06 15:16:34,964] [views.py:206] [views:geocoder] [ERROR]- 获取位置信息错误
+[2020-11-06 15:18:13,689] [views.py:206] [views:geocoder] [ERROR]- {'status': 306, 'message': 'address和location必须且只能存在一个'}
+[2020-11-06 15:18:43,989] [views.py:208] [views:geocoder] [ERROR]- {'status': 306, 'message': 'address和location必须且只能存在一个'}
+[2020-11-06 15:21:04,042] [views.py:208] [views:geocoder] [ERROR]- {'status': 306, 'message': 'address和location必须且只能存在一个'}
+[2020-11-06 15:21:28,109] [views.py:208] [views:geocoder] [ERROR]- {'status': 306, 'message': 'address和location必须且只能存在一个'}
+[2020-11-06 15:21:32,933] [views.py:208] [views:geocoder] [ERROR]- {'status': 306, 'message': 'address和location必须且只能存在一个'}
+[2020-11-06 15:27:21,812] [views.py:182] [views:guessPosition] [ERROR]- 获取位置信息错误
+[2020-11-06 15:28:23,733] [views.py:182] [views:guessPosition] [ERROR]- 获取位置信息错误
+[2020-11-06 15:28:23,783] [views.py:206] [views:geocoder] [ERROR]- {'status': 310, 'message': 'location格式错误'}
+[2020-11-06 15:30:36,455] [views.py:182] [views:guessPosition] [ERROR]- 获取位置信息错误
+[2020-11-06 15:30:36,502] [views.py:206] [views:geocoder] [ERROR]- {'status': 310, 'message': 'location格式错误'}
+[2020-11-06 15:53:57,349] [views.py:262] [views:pois] [ERROR]- 'dict' object has no attribute 'result'
+[2020-11-06 15:54:29,364] [views.py:263] [views:pois] [ERROR]- 'dict' object has no attribute 'result'
+[2020-11-06 15:54:33,686] [views.py:263] [views:pois] [ERROR]- 'dict' object has no attribute 'result'
+[2020-11-06 15:54:55,187] [views.py:265] [views:pois] [ERROR]- 'dict' object has no attribute 'result'
+[2020-11-06 15:54:58,736] [views.py:265] [views:pois] [ERROR]- 'dict' object has no attribute 'result'
+[2020-11-06 20:32:09,383] [views.py:105] [views:list] [ERROR]- 参数错误

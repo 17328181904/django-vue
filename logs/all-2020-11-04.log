@@ -1,0 +1,601 @@
+[2020-11-04 20:45:57,224] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:46:12,043] [views.py:178] [views:get] [ERROR]- 参数错误
+[2020-11-04 20:46:12,081] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/ HTTP/1.1" 200 10075
+[2020-11-04 20:46:12,194] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:47:48,103] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:49:07,108] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:50:19,970] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:51:06,455] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:51:28,182] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:52:17,315] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:53:00,840] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:53:03,490] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:53:03,490] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:53:03,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:53:03,569] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:53:03,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:53:03,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:53:03,583] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:53:03,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:53:03,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:53:03,634] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:53:34,134] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 20:53:35,794] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:53:36,976] [views.py:105] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:53:36,976] [views.py:186] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:53:37,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:53:37,147] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:53:37,157] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:53:37,163] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:53:37,163] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:53:37,165] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:53:37,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:53:37,252] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:53:41,524] [views.py:105] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:53:41,525] [views.py:186] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:53:41,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:53:41,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:53:41,594] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:53:41,595] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:53:41,596] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:53:41,596] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:53:41,598] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:53:41,646] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:54:35,029] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 20:54:36,958] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:54:39,594] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:54:39,594] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:54:39,630] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:54:39,677] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:54:39,684] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:54:39,686] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:54:39,689] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:54:39,690] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:54:39,691] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:54:39,739] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:56:03,047] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 20:56:04,808] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:56:05,902] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:56:05,902] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:56:05,988] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:56:06,089] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:06,093] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:56:06,105] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:56:06,108] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:06,109] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:56:06,110] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:06,183] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:56:08,635] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:56:08,635] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:56:08,651] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:56:08,691] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:56:08,692] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:08,692] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:56:08,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:08,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:08,697] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:56:23,562] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 20:56:25,663] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:56:26,655] [views.py:103] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:56:26,656] [views.py:184] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:56:26,692] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:56:26,735] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:26,737] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:56:26,745] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:56:26,747] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:26,748] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:26,749] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:56:28,332] [views.py:103] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:56:28,333] [views.py:184] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:56:28,350] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:56:28,404] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:28,405] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:56:28,408] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:56:28,409] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:56:28,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:28,411] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:28,467] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:56:36,588] [views.py:103] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:56:36,589] [views.py:184] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:56:36,606] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:56:36,648] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:36,649] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:56:36,651] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:36,652] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:56:36,653] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:36,654] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:56:45,662] [views.py:103] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:56:45,662] [views.py:184] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:56:45,679] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:56:45,721] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:56:45,722] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:45,723] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:56:45,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:45,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:56:45,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:45,774] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:56:54,246] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:56:56,961] [views.py:103] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:56:56,961] [views.py:184] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:56:57,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:56:57,041] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:57,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:56:57,052] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:56:57,056] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:56:57,056] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:57,057] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:56:57,103] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:57:37,683] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 20:57:39,426] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:57:41,673] [views.py:103] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:57:41,674] [views.py:184] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:57:41,708] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 10131
+[2020-11-04 20:57:41,751] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2020-11-04 20:57:41,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2020-11-04 20:57:41,762] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2020-11-04 20:57:41,763] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2020-11-04 20:57:41,763] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-11-04 20:57:41,764] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2020-11-04 20:57:41,820] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 20:57:59,481] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 20:57:59,486] [views.py:103] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:57:59,487] [views.py:184] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:57:59,488] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 20:58:08,857] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 20:58:08,866] [views.py:103] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:58:08,866] [views.py:184] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:58:08,867] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 20:59:05,126] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 20:59:06,762] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:59:10,971] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 20:59:12,576] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:59:13,866] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 20:59:13,883] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:59:13,883] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:59:13,884] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 20:59:43,776] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 20:59:45,490] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:59:53,838] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 20:59:55,407] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 20:59:58,096] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 20:59:58,113] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 20:59:58,114] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 20:59:58,115] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:00:03,764] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:00:03,770] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:00:03,770] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:00:03,771] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:00:06,672] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:00:06,677] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:00:06,678] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:00:06,679] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:00:08,314] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:00:08,324] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:00:08,324] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:00:08,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:00:09,960] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:00:09,967] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:00:09,968] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:00:09,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:01:50,331] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:01:52,699] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:02:25,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:02:25,775] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:02:25,776] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:02:25,777] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:02:26,722] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:02:26,733] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:02:26,734] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:02:26,736] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:04:25,304] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:04:27,042] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:04:29,092] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:04:29,113] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:04:29,113] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:04:29,114] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:04:35,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:04:35,490] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:04:35,490] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:04:35,490] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:04:37,129] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:04:37,136] [views.py:104] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:04:37,137] [views.py:185] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:04:37,138] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:05:31,515] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:05:33,635] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:05:34,956] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:05:34,973] [views.py:105] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:05:34,974] [views.py:186] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:05:34,975] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:06:29,531] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:06:31,297] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:06:33,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:06:33,738] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cursor' object has no attribute 'title_head'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 184, in get
+    return Response(serializer.data)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 548, in data
+    ret = super().data
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title_head` on serializer `MapCitySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cursor` instance.
+Original exception text was: 'Cursor' object has no attribute 'title_head'.
+[2020-11-04 21:06:33,744] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 21337
+[2020-11-04 21:07:35,447] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:07:37,448] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:08:20,362] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:08:22,149] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:08:24,767] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cursor' object has no attribute 'title_head'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 183, in get
+    return Response(serializer.data)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 548, in data
+    ret = super().data
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title_head` on serializer `MapCitySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cursor` instance.
+Original exception text was: 'Cursor' object has no attribute 'title_head'.
+[2020-11-04 21:08:24,771] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 131085
+[2020-11-04 21:08:24,820] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 21:08:58,197] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:09:01,216] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:09:01,567] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cursor' object has no attribute 'title_head'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 183, in get
+    return Response(serializer.data)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 548, in data
+    ret = super().data
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title_head` on serializer `MapCitySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cursor` instance.
+Original exception text was: 'Cursor' object has no attribute 'title_head'.
+[2020-11-04 21:09:01,572] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 21337
+[2020-11-04 21:10:49,337] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:10:51,233] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:11:57,120] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:11:57,468] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cursor' object has no attribute 'title_head'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 183, in get
+    return Response(serializer.data)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 548, in data
+    ret = super().data
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title_head` on serializer `MapCitySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cursor` instance.
+Original exception text was: 'Cursor' object has no attribute 'title_head'.
+[2020-11-04 21:11:57,473] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 21337
+[2020-11-04 21:12:58,884] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:13:22,177] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:13:22,523] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cursor' object has no attribute 'title_head'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 183, in get
+    return Response(serializer.data)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 548, in data
+    ret = super().data
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title_head` on serializer `MapCitySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cursor` instance.
+Original exception text was: 'Cursor' object has no attribute 'title_head'.
+[2020-11-04 21:13:22,529] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 21337
+[2020-11-04 21:15:11,846] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:15:13,634] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:15:17,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:15:17,481] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cursor' object has no attribute 'title_head'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 183, in get
+    return Response(serializer.data)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 548, in data
+    ret = super().data
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title_head` on serializer `MapCitySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cursor` instance.
+Original exception text was: 'Cursor' object has no attribute 'title_head'.
+[2020-11-04 21:15:17,488] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 21337
+[2020-11-04 21:15:54,675] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:15:56,478] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:16:00,176] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:16:00,375] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cursor' object has no attribute 'title_head'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 182, in get
+    return Response(serializer.data)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 548, in data
+    ret = super().data
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title_head` on serializer `MapCitySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cursor` instance.
+Original exception text was: 'Cursor' object has no attribute 'title_head'.
+[2020-11-04 21:16:00,381] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 21337
+[2020-11-04 21:16:42,067] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:16:43,933] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:17:21,830] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:17:23,567] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:17:26,906] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:17:27,231] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /app/v1/city/
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cursor' object has no attribute 'title_head'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\djangos\mysite\apps\v1\views.py", line 181, in get
+    return Response(serializer.data)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 548, in data
+    ret = super().data
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\20190930\envs\my_env\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title_head` on serializer `MapCitySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cursor` instance.
+Original exception text was: 'Cursor' object has no attribute 'title_head'.
+[2020-11-04 21:17:27,242] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /app/v1/city/?type=hot HTTP/1.1" 500 21337
+[2020-11-04 21:19:21,856] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:19:23,562] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:19:26,252] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:19:26,269] [views.py:103] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:19:26,270] [views.py:184] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:19:26,271] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:20:02,959] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:20:16,104] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:20:17,903] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:20:19,703] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:20:19,727] [views.py:102] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:20:19,727] [views.py:183] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:20:19,728] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:20:45,029] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:20:46,774] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:20:49,649] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0
+[2020-11-04 21:20:49,666] [views.py:102] [views:get_object_hot] [ERROR]- 获取mongodb数据库错误
+[2020-11-04 21:20:49,666] [views.py:183] [views:get] [ERROR]- serializer错误
+[2020-11-04 21:20:49,667] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city/?type=hot HTTP/1.1" 200 39
+[2020-11-04 21:21:25,633] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- D:\djangos\mysite\apps\v1\views.py changed, reloading.
+[2020-11-04 21:21:27,637] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 21:21:41,525] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /app/v1/city?type=hot HTTP/1.1" 301 0

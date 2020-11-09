@@ -1,0 +1,4 @@
+[2020-11-09 15:04:42,827] [views.py:24] [views:list] [ERROR]- user_id is must number
+[2020-11-09 15:07:00,883] [views.py:24] [views:list] [ERROR]- user_id is must number
+[2020-11-09 15:10:07,271] [views.py:24] [views:list] [ERROR]- user_id is must number
+[2020-11-09 15:23:12,167] [views.py:25] [views:list] [ERROR]- user_id is must number

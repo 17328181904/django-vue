@@ -1,4 +1,6 @@
 from django.urls import path,include
+from rest_framework.routers import DefaultRouter
+
 from . import views
 from django.conf.urls import url
 from rest_framework import routers
@@ -7,18 +9,30 @@ from rest_framework.viewsets import generics
 
 
 
+# router = DefaultRouter()
+# router.register(r'maps', views.TenMapViewSet)
+# urlpatterns = router.urls
+
+map_list = views.TenMapViewSet.as_view({
+    "get":"list"
+})
+get_city_id = views.TenMapViewSet.as_view({
+    "get":"getCityById"
+})
+
+get_exact_address =views.TenMapViewSet.as_view({
+    "get":"getExactAddress"
+})
+pois =views.TenMapViewSet.as_view({
+    "get":"pois"
+})
 
 
-# user_list = UserSerializer.as_view({
-#
-# })
-# router = routers.DefaultRouter()
-# router.register(r'v1/users', views.UserViewSet)
-# router.register(r'v1/groups', views.GroupViewSet)
-# router.register(r'v1/book', views.BookInfoViewSet)
-# router.register(r'v1/map', views.MapList)
 urlpatterns = [
-    url(r'^v1/city/(?P<pk>[a-zA-Z]+)/$',views.TenMap.as_view()),
-    url(r'^v1/map/city',views.MapList.as_view()),
-    url(r'^v1/map/city/<?P<pk>[a-zA-Z]*/$>',views.MapList.as_view()),
+
+    url(r'^cities/$',map_list,name="map_list"),
+    url(r'^map/city/id/$',get_city_id,name="get_city_id"),
+    url(r'^map/city/address/$',get_exact_address,name="get_exact_address"),
+url(r'^pois/$',pois,name="pois"),
+
 ]

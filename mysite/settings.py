@@ -13,9 +13,10 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 import os
 import sys
+import time
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-import pymongo
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -29,7 +30,7 @@ SECRET_KEY = '$wiu-%p4e)l7-)yzpnzv&^)+)+8z11f+nbkl91-$2odo%yr+k3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -45,7 +46,9 @@ INSTALLED_APPS = [
     # 'djcelery',
     'home',
     'index',
-    'v1'
+    'v1',
+    "v2",
+    "user"
 ]
 
 MIDDLEWARE = [
@@ -90,7 +93,9 @@ DATABASE_APPS_MAPPING = {
     # 'app_name':'database_name',
     'home': 'default',
     'index':  'mongodb',
-    'v1':'mongodb'
+    'v1':'mongodb',
+    "v2":"default",
+"user":"default",
 }
 DATABASES = {
     # 'default': {
@@ -119,12 +124,14 @@ DATABASES = {
                 }
             },
          },
+
+
         'NAME': 'vue-mongodb',
         'CLIENT': {
             'host': '106.13.0.43',
             'port': 27017,
-            # 'username': 'admin',
-            # 'password': '27017',
+            'username': 'admin',
+            'password': 'xiaowei2XIAOWEI2',
             # 'username': '',
             # 'password': '',
             # 'authSource': 'admin',
@@ -136,7 +143,20 @@ DATABASES = {
 
 
 
-
+#缓存的配置
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://106.13.0.43:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            "PASSWORD":"xiaowei2XIAOWEI2"
+        }
+    }
+}
+# 配置session存储
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "default"
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -182,21 +202,112 @@ STATIC_URL = '/static/'
 STATIC_DIRS = [os.path.join(BASE_DIR,'static')]
 #腾讯地图配置
 TENXEN_KEY="JWNBZ-QFDRD-HSC4M-PFSPY-AQUS3-JGFNQ"
-
-
+#百度地图配置
+BAIDU_KEY = "B7jBFYq33OzHFLhlmPqnkUPKoxXUPHuP"
+#高德地图配置
+GAODE_KEY = "5448443c78713102dfea42254d7e6ce0"
 #django_rest_framework
 REST_FRAMEWORK = {
 
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10,
     'MAX_PAGE_SIZE': 100,
+    'DEFAULT_RENDERER_CLASSES':(
+#默认响应常渲染
+        'renders.Utf8JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer'
+    ),
     'DEFAULT_PERMISSION_CLASSES': [
         # 'rest_framework.permissions.IsAdminUser',
+
     ],
 
 }
 
-# if __name__ == '__main__':
-#     mongo = pymongo.MongoClient(host="106.13.0.43",port=27017)
-#     # mongo.vue_mongodb
-#     print(mongo.list_database_names())
+
+
+# 创建日志文件夹路径
+log_path = os.path.join(BASE_DIR, 'logs')
+# 如过地址不存在，则自动创建log文件夹
+if not os.path.isdir(log_path):
+    os.mkdir(log_path)
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'formatters': {
+        # 日志格式
+        'standard': {
+            'format': '[%(asctime)s] [%(filename)s:%(lineno)d] [%(module)s:%(funcName)s] '
+                      '[%(levelname)s]- %(message)s'},
+        'simple': {  # 简单格式
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    # 过滤
+    'filters': {
+    },
+    # 定义具体处理日志的方式
+    'handlers': {
+        # 默认记录所有日志
+        'default': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(log_path, 'all-{}.log'.format(time.strftime('%Y-%m-%d'))),
+            'maxBytes': 1024 * 1024 * 5,  # 文件大小
+            'backupCount': 5,  # 备份数
+            'formatter': 'standard',  # 输出格式
+            'encoding': 'utf-8',  # 设置默认编码，否则打印出来汉字乱码
+        },
+        # 输出错误日志
+        'error': {
+            'level': 'ERROR',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(log_path, 'error-{}.log'.format(time.strftime('%Y-%m-%d'))),
+            'maxBytes': 1024 * 1024 * 5,  # 文件大小
+            'backupCount': 5,  # 备份数
+            'formatter': 'standard',  # 输出格式
+            'encoding': 'utf-8',  # 设置默认编码
+        },
+        # 控制台输出
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'standard'
+        },
+        # 输出info日志
+        'info': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(log_path, 'info-{}.log'.format(time.strftime('%Y-%m-%d'))),
+            'maxBytes': 1024 * 1024 * 5,
+            'backupCount': 5,
+            'formatter': 'standard',
+            'encoding': 'utf-8',  # 设置默认编码
+        },
+    },
+    # 配置用哪几种 handlers 来处理日志
+    'loggers': {
+        # 类型 为 django 处理所有类型的日志， 默认调用
+        'django': {
+            'handlers': ['default', 'console'],
+            'level': 'INFO',
+            'propagate': False # 向不向更高级别的logger传递
+        },
+        # log 调用时需要当作参数传入
+        'log': {
+            'handlers': ['error', 'info', 'default'],
+            'level': 'INFO',
+            'propagate': False
+        },
+    }
+}
+
+
+#mongodb配置
+mongo_conf={
+    "HOST":"106.13.0.43",
+    "USERNAME":"admin",
+    "PASSWORD":"xiaowei2XIAOWEI2",
+    "DB":"vue-mongodb"
+}
